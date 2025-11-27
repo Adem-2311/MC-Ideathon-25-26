@@ -28,7 +28,7 @@ EXPOSE 8000
 ARG PROJECT_Name="Ecom-Platform"
 
 ARG BACK_PORT=8000
-ARG BACK_MONGODB_URI="mongodb+srv://yassersellal:mxBddmcR2YkJ1dBm@backednsam.6mimnx1.mongodb.net/?retryWrites=true&w=majority&appName=backednSam"
+ARG BACK_MONGODB_URI=""
 ARG BACK_MONGODB_NAME="Ecom-Platform"
 
 ARG STATIC="./media"
@@ -36,16 +36,16 @@ ARG LOGS="./logs"
 
 ARG BACK_SECRET="tbd"
 
-ARG BACK_EmailHost="smtp.gmail.com"
+ARG BACK_EmailHost=""
 ARG BACK_EmailPort="465"
 
-ARG BACK_EmailUser="yassosamx@gmail.com"
-ARG BACK_EmailPass="gpsfzoyqgbevkjbf"
+ARG BACK_EmailUser=""
+ARG BACK_EmailPass=""
 
-ARG DEV_Email="yassersellal14@gmail.com"
+ARG DEV_Email=""
 
 ARG NODE_ENV="development"
-ARG MAIN_URL="https://github.com/SamiSelx"
+ARG MAIN_URL=""
 
 ARG CLOUDINARY_CLOUD_NAME="dr9zoteco"
 ARG CLOUDINARY_API_KEY="321968973278712"
