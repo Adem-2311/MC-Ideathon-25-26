@@ -1,6 +1,9 @@
 /* MUST NOT FORGET TO CHANGE THIS FILE WHEN NEEDED
    I LEARNED THE HARD WAY THAT IT CAN OVERRIDES YOUR CSS CODE 💀💀😭😭
 */
+
+@import 'tailwindcss';
+
 :root {
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
